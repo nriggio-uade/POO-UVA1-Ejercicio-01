@@ -1,15 +1,5 @@
 package ejercicios.uva1.ejercicio1;
 
-/*Ejercicio 1: 
--Crear la clase Ala para un avión. OK
-Esta clase debe tener atributos como la envergadura, el color y el tipo de material 
-(aluminio, compuesto, etc.). OK
-- Un comportamiento común de cualquier ala es “flap”. (FALTA ESTE PUNTO)
-- Desarrolla una clase de prueba con un método “main” para construir dos alas, usar los flap 
-y muestra algunos de sus datos en la consola. (FALTA ESTE PUNTO)
-
-*/
-
 public class Ala {
     
     String envergadura;
