@@ -1,7 +1,5 @@
 package ejercicios.uva1.ejercicio2;
 
-
-
 public class SistemaDeControlDeVuelo {
     
     String fabricante;
@@ -13,7 +11,6 @@ public class SistemaDeControlDeVuelo {
         this.modo = modo;
         this.tipo = tipo;
     }
-
     
 
     public SistemaDeControlDeVuelo() {

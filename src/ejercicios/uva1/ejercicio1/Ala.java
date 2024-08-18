@@ -2,13 +2,13 @@ package ejercicios.uva1.ejercicio1;
 
 public class Ala {
     
-    String envergadura;
+    float envergadura;
     String color;
     String material; //Aluminio, compuesto, etc
     boolean flap;
     
     
-    public Ala(String envergadura, String color, String material) { //constructor de Ala completo
+    public Ala(float envergadura, String color, String material) { //constructor de Ala completo
         this.envergadura = envergadura;
         this.color = color;
         this.material = material;
@@ -18,11 +18,19 @@ public class Ala {
     public Ala() { //constructor de Ala sin atributos
     }
 
-    public String getEnvergadura() {
+    public void flap() {
+        this.flap = true;
+    }
+
+    public void unflap() {
+        this.flap = false;
+    }
+
+    public float getEnvergadura() {
         return envergadura;
     }
 
-    public void setEnvergadura(String envergadura) {
+    public void setEnvergadura(float envergadura) {
         this.envergadura = envergadura;
     }
 
